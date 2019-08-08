@@ -1,7 +1,7 @@
 # SassWithWordPress
 Template for hot-reloading Sass into WordPress Projects.
 
-# Denpendencies
+# Dependencies
 NodeJS, NPM
 
 # Steps to use
