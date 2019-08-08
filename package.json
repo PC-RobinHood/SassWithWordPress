@@ -1,0 +1,21 @@
+{
+  "name": "sasswithwordpress",
+  "version": "1.0.0",
+  "description": "Template for hot-reloading Sass into WordPress",
+  "scripts": {
+    "css": "node-sass --output-style compressed --include-path scss assets/css/source.scss style.css",
+    "watch": "nodemon -e scss -x \"npm run css\""
+  },
+  "repository": "https://github.com/PC-RobinHood/SassWithWordPress.git",
+  "author": "Justin Graham <support@pcrobinhood.com>",
+  "license": "Apache",
+  "private": false,
+  "bugs": {
+    "url": "https://github.com/PC-RobinHood/SassWithWordPress/issues"
+  },
+  "homepage": "https://github.com/PC-RobinHood/SassWithWordPress#readme",
+  "dependencies": {
+    "node-sass": "^4.12.0",
+    "nodemon": "^1.19.1"
+  }
+}
